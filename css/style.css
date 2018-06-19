@@ -1,0 +1,39 @@
+body{
+  margin: auto;
+  font-family: 'Italiana', serif;
+  background: url('pizzabackground.jpg') no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.50);
+}
+
+.main {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.50);
+  height: 100vh;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.picbutton {
+  text-align: center;
+  background-image: url('bake.jpg');
+  background-size: cover;
+}
+
+#produce-pizza {
+  height: 150px;
+  width: 200px;
+  border: none;
+  outline: none;
+}

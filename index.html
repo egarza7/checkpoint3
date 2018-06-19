@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+    <title>Pizzaria 512</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Pizzas: <span id="pizza-count">0</span></h1>
+      <h2>Pizzas p/s: <span id="pizza-ps">0</span></h2>
+    </div>
+
+    <div class="picbutton">
+      <button id="produce-pizza" style="display:inline-block; background: url(./img/icon2.png) no-repeat center;"></button>
+    </div>
+
+    <div class="main">
+      <h2>Upgrades:</h2>
+      <p>
+        <button id="novice-training">Novice Training</button>
+      Transform 5 Novices into a Expert at no additional cost<br></p>
+      <p>
+        <button id="expert-training">Expert Training</button>
+      Transform 5 Experts into an Elite at no additional cost<br></p>
+      <p>
+        <button id="elite-training">Elite Training</button>
+      Transform 5 Elites into a Master at no additional cost<br></p>
+
+      <h2>Store:</h2>
+
+      <button id="novice-pizzaiolo">Hire Novice Pizzaiolo</button>
+      <button id="expert-pizzaiolo">Hire Expert Pizzaiolo</button>
+      <button id="elite-pizzaiolo">Hire Elite Pizzaiolo</button>
+      <button id="master-pizzaiolo">Hire Master Pizzaiolo</button>
+
+      <h2>Pizzaiolo:</h2>
+      <p>Novice: <span id="novice-count">0</span></p>
+      <p>Expert: <span id="expert-count">0</span></p>
+      <p>Elite: <span id="elite-count">0</span></p>
+      <p>Master: <span id="master-count">0</span></p>
+    </div>
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
